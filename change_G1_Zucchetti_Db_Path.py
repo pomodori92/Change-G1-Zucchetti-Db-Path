@@ -41,10 +41,11 @@ def update_data_path(file_path: str, new_path: str = r"Z:" + sep) -> None:
 
 def main():
     file_path = r"C:" + sep + "Users" + sep + "Public" + sep + "SGA_AZ32.INI"
-    new_path = r"Z:" + sep
+    new_path = r"Z:" + sep + "DB"
     
     update_data_path(file_path, new_path)
 
 
 if __name__ == "__main__":
     main()
+
